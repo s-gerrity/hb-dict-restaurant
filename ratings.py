@@ -25,10 +25,14 @@ def restaurant_ratings(text_file):
 
             reviews[words[0]] = words[1]
 
+    reviews_alphabetical = sorted(reviews)
+    
+    for review_key in reviews_alphabetical:
+        print(f"{review_key} is rated at {reviews[review_key]}")
 
 
 
-    print(reviews)
+
 
 
 
