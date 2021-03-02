@@ -9,9 +9,6 @@
 # We want to prompt the user for a restaurant name
 # prompt user for restaurant score
 
-
-
-
 # put your code here
 
 def restaurant_ratings(text_file):
@@ -44,7 +41,7 @@ def restaurant_ratings(text_file):
         # ask for review, assign to new_review
         # reviews[new_restaurant] = new_review
 
-
+# Food is the best
 
 
 
